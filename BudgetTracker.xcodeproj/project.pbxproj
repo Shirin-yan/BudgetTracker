@@ -8,17 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		8B0EA62A2A5FBBA400FD0AA0 /* BudgetTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0EA6292A5FBBA400FD0AA0 /* BudgetTrackerApp.swift */; };
-		8B0EA62C2A5FBBA400FD0AA0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0EA62B2A5FBBA400FD0AA0 /* ContentView.swift */; };
+		8B0EA62C2A5FBBA400FD0AA0 /* TabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0EA62B2A5FBBA400FD0AA0 /* TabbarView.swift */; };
 		8B0EA62E2A5FBBA500FD0AA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B0EA62D2A5FBBA500FD0AA0 /* Assets.xcassets */; };
 		8B0EA6312A5FBBA500FD0AA0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B0EA6302A5FBBA500FD0AA0 /* Preview Assets.xcassets */; };
+		8B0EA6392A5FBDC100FD0AA0 /* ExpensesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0EA6382A5FBDC100FD0AA0 /* ExpensesListView.swift */; };
+		8B0EA63D2A5FBDEC00FD0AA0 /* SavingsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0EA63C2A5FBDEC00FD0AA0 /* SavingsListView.swift */; };
+		8B0EA63F2A5FBDFA00FD0AA0 /* IncomesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0EA63E2A5FBDFA00FD0AA0 /* IncomesListView.swift */; };
+		8B9759392A5FC29F00786C09 /* ExpenseItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9759382A5FC29F00786C09 /* ExpenseItemView.swift */; };
+		8B97593C2A5FC2C300786C09 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B97593B2A5FC2C300786C09 /* Expense.swift */; };
+		8B97593E2A5FC2E100786C09 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B97593D2A5FC2E100786C09 /* Tag.swift */; };
+		8BF10DAC2A60243900532DC4 /* Saving.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF10DAB2A60243900532DC4 /* Saving.swift */; };
+		8BF10DAE2A60250C00532DC4 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF10DAD2A60250C00532DC4 /* Color.swift */; };
+		8BF10DB12A60251C00532DC4 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF10DB02A60251C00532DC4 /* Font.swift */; };
+		8BF10DB32A6029C000532DC4 /* ColoredBtnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF10DB22A6029C000532DC4 /* ColoredBtnView.swift */; };
+		8BF10DB92A605A0800532DC4 /* ExpensesListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF10DB82A605A0800532DC4 /* ExpensesListVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8B0EA6262A5FBBA400FD0AA0 /* BudgetTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BudgetTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B0EA6292A5FBBA400FD0AA0 /* BudgetTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetTrackerApp.swift; sourceTree = "<group>"; };
-		8B0EA62B2A5FBBA400FD0AA0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8B0EA62B2A5FBBA400FD0AA0 /* TabbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarView.swift; sourceTree = "<group>"; };
 		8B0EA62D2A5FBBA500FD0AA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B0EA6302A5FBBA500FD0AA0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8B0EA6382A5FBDC100FD0AA0 /* ExpensesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesListView.swift; sourceTree = "<group>"; };
+		8B0EA63C2A5FBDEC00FD0AA0 /* SavingsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingsListView.swift; sourceTree = "<group>"; };
+		8B0EA63E2A5FBDFA00FD0AA0 /* IncomesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomesListView.swift; sourceTree = "<group>"; };
+		8B0EA6402A5FC14300FD0AA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8B9759382A5FC29F00786C09 /* ExpenseItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseItemView.swift; sourceTree = "<group>"; };
+		8B97593B2A5FC2C300786C09 /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
+		8B97593D2A5FC2E100786C09 /* Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
+		8BF10DAB2A60243900532DC4 /* Saving.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Saving.swift; sourceTree = "<group>"; };
+		8BF10DAD2A60250C00532DC4 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		8BF10DB02A60251C00532DC4 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		8BF10DB22A6029C000532DC4 /* ColoredBtnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoredBtnView.swift; sourceTree = "<group>"; };
+		8BF10DB82A605A0800532DC4 /* ExpensesListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesListVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +74,12 @@
 		8B0EA6282A5FBBA400FD0AA0 /* BudgetTracker */ = {
 			isa = PBXGroup;
 			children = (
+				8B0EA6402A5FC14300FD0AA0 /* Info.plist */,
 				8B0EA6292A5FBBA400FD0AA0 /* BudgetTrackerApp.swift */,
-				8B0EA62B2A5FBBA400FD0AA0 /* ContentView.swift */,
+				8BF10DAF2A60251200532DC4 /* Extention */,
+				8B97593A2A5FC2B400786C09 /* Models */,
+				8B9759372A5FC29000786C09 /* Items */,
+				8B0EA6372A5FBDB000FD0AA0 /* Screens */,
 				8B0EA62D2A5FBBA500FD0AA0 /* Assets.xcassets */,
 				8B0EA62F2A5FBBA500FD0AA0 /* Preview Content */,
 			);
@@ -65,6 +92,54 @@
 				8B0EA6302A5FBBA500FD0AA0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8B0EA6372A5FBDB000FD0AA0 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				8B0EA62B2A5FBBA400FD0AA0 /* TabbarView.swift */,
+				8BF10DB72A6059F600532DC4 /* ExpenseList */,
+				8B0EA63E2A5FBDFA00FD0AA0 /* IncomesListView.swift */,
+				8B0EA63C2A5FBDEC00FD0AA0 /* SavingsListView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		8B9759372A5FC29000786C09 /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				8B9759382A5FC29F00786C09 /* ExpenseItemView.swift */,
+				8BF10DB22A6029C000532DC4 /* ColoredBtnView.swift */,
+			);
+			path = Items;
+			sourceTree = "<group>";
+		};
+		8B97593A2A5FC2B400786C09 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8B97593B2A5FC2C300786C09 /* Expense.swift */,
+				8BF10DAB2A60243900532DC4 /* Saving.swift */,
+				8B97593D2A5FC2E100786C09 /* Tag.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8BF10DAF2A60251200532DC4 /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				8BF10DAD2A60250C00532DC4 /* Color.swift */,
+				8BF10DB02A60251C00532DC4 /* Font.swift */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
+		8BF10DB72A6059F600532DC4 /* ExpenseList */ = {
+			isa = PBXGroup;
+			children = (
+				8BF10DB82A605A0800532DC4 /* ExpensesListVM.swift */,
+				8B0EA6382A5FBDC100FD0AA0 /* ExpensesListView.swift */,
+			);
+			path = ExpenseList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +212,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B0EA62C2A5FBBA400FD0AA0 /* ContentView.swift in Sources */,
+				8BF10DAC2A60243900532DC4 /* Saving.swift in Sources */,
+				8BF10DB12A60251C00532DC4 /* Font.swift in Sources */,
+				8B97593E2A5FC2E100786C09 /* Tag.swift in Sources */,
+				8B97593C2A5FC2C300786C09 /* Expense.swift in Sources */,
+				8BF10DAE2A60250C00532DC4 /* Color.swift in Sources */,
+				8B0EA62C2A5FBBA400FD0AA0 /* TabbarView.swift in Sources */,
+				8B0EA63F2A5FBDFA00FD0AA0 /* IncomesListView.swift in Sources */,
+				8B0EA6392A5FBDC100FD0AA0 /* ExpensesListView.swift in Sources */,
 				8B0EA62A2A5FBBA400FD0AA0 /* BudgetTrackerApp.swift in Sources */,
+				8B9759392A5FC29F00786C09 /* ExpenseItemView.swift in Sources */,
+				8BF10DB32A6029C000532DC4 /* ColoredBtnView.swift in Sources */,
+				8BF10DB92A605A0800532DC4 /* ExpensesListVM.swift in Sources */,
+				8B0EA63D2A5FBDEC00FD0AA0 /* SavingsListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,7 +281,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -249,7 +335,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -270,11 +356,12 @@
 				DEVELOPMENT_TEAM = 847S254GLW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BudgetTracker/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,11 +386,12 @@
 				DEVELOPMENT_TEAM = 847S254GLW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BudgetTracker/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
