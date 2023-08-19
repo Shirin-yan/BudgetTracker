@@ -9,10 +9,13 @@ import SwiftUI
 
 @main
 struct BudgetTrackerApp: App {
+    @StateObject private var dataController = DataController()
+
     var body: some Scene {
         WindowGroup {
             TabbarView()
                 .preferredColorScheme(.light)
+                .environment(\.managedObjectContext, dataController.container.viewContext)
         }
     }
 }

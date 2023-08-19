@@ -8,8 +8,10 @@
 import SwiftUI
 
 struct ExpensesListView: View {
-    @StateObject var vm: ExpensesListVM = ExpensesListVM()
-    
+    @Environment(\.managedObjectContext) var moc
+    @FetchRequest(sortDescriptors: []) var data: FetchedResults<Expense>
+    @FetchRequest(sortDescriptors: []) var tags: FetchedResults<Tag>
+
     @State var search: String = ""
     
     var body: some View {
@@ -28,7 +30,7 @@ struct ExpensesListView: View {
 
                 LazyVStack(spacing: 6) {
                     Section {
-                        ForEach(0..<10) { i in
+                        ForEach(data) { i in
                             ExpenseItemView(data: Expense.example)
                                 .background(Color.white)
                         }
@@ -63,7 +65,6 @@ struct ExpensesListView: View {
                         .padding(.bottom, 30)
                     
                 }).navigationTitle(LocalizedStringKey("Expenses"))
-//                .navigationBarTitleDisplayMode(.large)
                 .searchable(text: $search)
                 .toolbar {
                     Button {

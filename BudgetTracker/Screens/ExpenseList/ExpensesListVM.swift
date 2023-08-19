@@ -6,7 +6,16 @@
 //
 
 import Foundation
+import SwiftUI
 
 class ExpensesListVM: ObservableObject {
     
+
+    init(){
+//        print(data)
+        
+//        PersistenceController.shared
+        
+    }
+
 }
